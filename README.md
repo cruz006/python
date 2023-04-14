@@ -28,3 +28,15 @@ once this is finished, push your local commit:
 ```bash
 git push
 ```
+
+---
+
+## How to remove the .DS_Store
+
+add a .gitgnore file
+
+put this in the file:
+
+```bash
+.DS_Store
+```

@@ -9,6 +9,10 @@ then if there anything needed to update or anything, there will be displayed com
 
 when you've made changes, you need to stage them. stage them like this:
 
+---
+
+## How to upload to GitHub
+
 ```bash
 git add .
 ```

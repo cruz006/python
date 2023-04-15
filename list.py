@@ -17,3 +17,22 @@ for x in(mylist):
 #   the [] in mylist[] serve to choose which item you want, and they start off at 0
 mylist = [0,1,2,3,4,5,6,7,8,9,10]
 print(mylist[1])
+
+#   here is an example of a little excercise you can do that involves lists
+#   it takes the index number from the list and prints it
+numbers = []
+strings = []
+names = ["Rayden" , "John", "Ev"]
+second_name = names[1]
+
+#   this is the code added to make everything work
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+
+strings.append("hello")
+strings.append("world")
+
+print(numbers)
+print(strings)
+print("The second name on the names list is %s" % second_name)

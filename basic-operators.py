@@ -11,3 +11,5 @@ print(average)
 #   When it is 11/3, it can be divded 3 times which equals 9, and then the remainder is stored, which is 2
 remainder = 11 % 3
 print(remainder)
+
+#    this is how you can use multiplication 

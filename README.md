@@ -7,7 +7,7 @@ This is just a folder with all of my python projects, little things, and everyth
 - if you need to update anything python, press pip3 install
 then if there anything needed to update or anything, there will be displayed command you will need to put.
 
-- hen you've made changes, you need to stage them. stage them like this:
+- when you've made changes, you need to stage them. stage them like this:
 
 ---
 

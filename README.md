@@ -4,10 +4,10 @@ This is just a folder with all of my python projects, little things, and everyth
 
 - This will basically be everything Python i will use, do, or have.
 
-if you need to update anything python, press pip3 install
+- if you need to update anything python, press pip3 install
 then if there anything needed to update or anything, there will be displayed command you will need to put.
 
-when you've made changes, you need to stage them. stage them like this:
+- hen you've made changes, you need to stage them. stage them like this:
 
 ---
 

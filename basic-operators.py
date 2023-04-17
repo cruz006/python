@@ -34,11 +34,13 @@ print(all_numbers)
 x = object()
 y = object()
 
-# t
+# this is how you can combine
 x_list = [x] * 10
 y_list = [y] * 10
 big_list = x_list + y_list
 
+#   then this is when you check how many are in each
+#   len is a function that retruns the length of an object, which is why we made the x and y list an object
 print("x_list contains %d objects" % len(x_list))
 print("y_list contains %d objects" % len(y_list))
 print("big_list contains %d objects" % len(big_list))

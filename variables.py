@@ -34,6 +34,10 @@ if isinstance(myint, int) and myint == 20:
 msg="Hello World!"
 print(msg)
 
+#    here too is how you can make a whole sentence
+helloworld = "hello" + " " + "world"
+print(helloworld)
+
 #   myint is my interger
 #   mystring is my string myfloat is a whole number with a deicaml point to be exact
 #   str is equal to	Text

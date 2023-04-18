@@ -13,6 +13,14 @@ then if there anything needed to update or anything, there will be displayed com
 
 ## How to upload to GitHub
 
+To make a new repository, do this:
+
+```bash
+git init
+```
+
+then you can type this in
+
 ```bash
 git add .
 ```

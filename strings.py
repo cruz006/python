@@ -43,3 +43,25 @@ print(num_string[0:-1:2])
 var2 = "hello"
 print((var2 + " " )*3)
 
+#   this is how you can make a string upper case
+var3 = str.capitalize('cookie')
+print(var3)
+
+#   then this is how you can check if a string is in lower or upper case
+snack = 'cookie'
+food = 'Chips'
+var4 = snack.islower()
+var5 = food.islower()
+print(var4)
+print(var5)
+
+#   then this is how you can find a certain word within a string
+str2 = 'I got you a cookie'
+str3 = 'cookie'
+print(str2.find(str3))
+
+str1 = 'I got you a cookie, do you like cookies?'
+str2 = 'cookie'
+print(str1.count(str2))
+
+

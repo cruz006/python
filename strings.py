@@ -13,8 +13,6 @@ print(single + " " + double + " " + triple)
 var1 = len(single)
 print(var1)
 
-#   THIS WHOLE SEGMENT WILL USE THE SAME STRING
-
 #    then this is how you can use the index of a string to find a certain letter
 #    using the index, it reads left to right starting at 0, and it goes by letter
 snack = "Chocolate cookie."
@@ -40,4 +38,8 @@ print(num_string[::-1])
 #   this is how you could make it print every other one, the first digit 
 #   will be the starting, then it is the order, and then the second order
 print(num_string[0:-1:2])
+
+#   if you want to repeat a string, you would just multiply it
+var2 = "hello"
+print((var2 + " " )*3)
 

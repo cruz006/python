@@ -63,5 +63,3 @@ print(str2.find(str3))
 str1 = 'I got you a cookie, do you like cookies?'
 str2 = 'cookie'
 print(str1.count(str2))
-
-

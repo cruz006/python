@@ -11,7 +11,7 @@ then if there anything needed to update or anything, there will be displayed com
 
 ---
 
-# How to upload to GitHub
+## How to upload to GitHub
 
 To make a new repository, do this:
 

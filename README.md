@@ -11,7 +11,7 @@ then if there anything needed to update or anything, there will be displayed com
 
 ---
 
-## How to upload to GitHub
+# How to upload to GitHub
 
 To make a new repository, do this:
 
@@ -19,7 +19,13 @@ To make a new repository, do this:
 git init
 ```
 
-then you can type this in
+once you have done this, if you are on windows you should press Ctrl + Shift + P, and if you are on mac you would press Command + Shift + P. then type this in at the top
+
+```bash
+@command:github.publish
+```
+
+once you have done this you can choose to make a private or public repository, and then you can type this in to update your repository
 
 ```bash
 git add .
@@ -41,9 +47,7 @@ git push
 
 ## How to remove the .DS_Store
 
-add a .gitgnore file
-
-put this in the file:
+add a .gitgnore file and put this in the file:
 
 ```bash
 .DS_Store

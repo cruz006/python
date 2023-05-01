@@ -52,3 +52,5 @@ add a .gitgnore file and put this in the file:
 ```bash
 .DS_Store
 ```
+
+ok, good luck

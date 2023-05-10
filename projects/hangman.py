@@ -3,3 +3,4 @@
 name = "Hello, what is your name?"
 print(name)
 
+#   now you need to get the input 

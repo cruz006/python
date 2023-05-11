@@ -65,4 +65,4 @@ while turns > 0:
  
     #   condional for if you lose
         if turns == 0:           
-            print ("You Lose"  )
+            print ("You Lose, the word was " + word )

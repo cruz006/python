@@ -33,6 +33,7 @@ print(type(cnum))
 rnum = 3.14
 print(type(rnum))
 
+
 #   this is the input command, where it takes your input
 #   then, it prints your input
 var3 = input("Hello, your name is: ")
@@ -41,11 +42,13 @@ print("Hello there " + var3)
 var4 = input("Pick any number: ")
 print("The number you said is " + var4 + ", correct?")
 
+
 #   the len command checks the length of anything
 #   the str command here is used to make the length(an interger),
 #   into a string to be able to print it
 var5 = input("Type anything you want here: ")
 print("What you typed is " + str(len(var5)) + " characters long.")
+
 
 #   the str string can be used for many uses
 var6 = 1000

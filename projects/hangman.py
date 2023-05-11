@@ -1,10 +1,8 @@
 #   this will be the code needed for the hangman game code
 #   this is where we get the name of the user
-print('Hello, what is your name?')
-my_name = input()
-
+name = input("What is your name? ")
 #   now you greet them
-print('Hello, {}'.format (my_name) + ' would you like to play hangman? Please enter "yes" or "no" to continue')
+
 
 game_on = "yes"
 if input() == game_on:

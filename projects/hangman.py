@@ -1,26 +1,69 @@
-#   this is where we get the name of the user
-name = input("What is your name? ")
+#   importing the time module
+import time
 
-#   now you greet them
+#   greeting
+name = input("What is your name? ")
 print ("Hello, " + name, "Time to play hangman!")
 
-#   wait time
-import time
+#   wait for 3 second
 time.sleep(3)
-print("Start guessing!")
 
-#   this is where you will have the secret word and whatever you guess
-#   you may use whatever word you want, i am using "secret"
-word = "secret"
-guess = ""
+print ("Start guessing...")
+time.sleep(3)
 
-#   this determines the number of turns available, you may change this
-#   to whatever you want
+#   this will be the word you need to find
+word = ("secret")
+
+#   makes the things you guess
+guesses = ''
+
+#   number of terms you have
 turns = 10
-while turns>0:
-    failed = 0
 
-    #   for every character in word
-    for char in word:
-        if char in guess:
-            print(char, end="")
+#   Create a while loop for the game
+while turns > 0:         
+
+    #   counter
+    failed = 0             
+
+    #   goes through word to check 
+    for char in word:      
+
+    #   checks if any words you guess are correct
+        if char in guesses:    
+    
+        #   prints what you guess
+            print (char,end=""),    
+
+        else:
+        #   appears if you are wrong
+            print ("_",end=""),     
+       
+        #   increases fails
+            failed += 1    
+
+
+    #   if fail is equal to 0
+    if failed == 0:        
+        print ("You won")
+   
+        break  
+
+    #   ask again
+    guess = input("guess a character:") 
+
+    #   sets your guess to the guesses taken and function for if not
+    guesses += guess                    
+    if guess not in word:  
+ 
+     #  removes a turn if wrong
+        turns -= 1        
+        print ("Wrong")  
+ 
+    #   tells you how many turns you have left
+        print ("You have", + turns, 'more guesses' )
+ 
+    #   condional for if you lose
+        if turns == 0:           
+            print ("You Lose"  )
+            

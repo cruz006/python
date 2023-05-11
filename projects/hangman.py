@@ -50,7 +50,7 @@ while turns > 0:
         break  
 
     #   ask again
-    guess = input("guess a character:") 
+    guess = input("guess a letter:") 
 
     #   sets your guess to the guesses taken and function for if not
     guesses += guess                    
@@ -66,4 +66,3 @@ while turns > 0:
     #   condional for if you lose
         if turns == 0:           
             print ("You Lose"  )
-            

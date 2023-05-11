@@ -5,7 +5,7 @@ import time
 name = input("What is your name? ")
 print ("Hello, " + name, "it's time to play hangman!")
 
-#   wait for 3 second
+#   wait for 2 second
 time.sleep(2)
 
 print ("Start guessing...")

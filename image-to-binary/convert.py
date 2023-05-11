@@ -4,4 +4,4 @@ im = Image.open('py.webp')
 pixels = list(im.getdata())
 print(pixels)
 
-#   type this: python3 convert.py>output.txt
+#   type this: python3 convert.py > output.txt

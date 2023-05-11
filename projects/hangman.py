@@ -9,5 +9,4 @@ import time
 time.sleep(3)
 print("Start guessing!")
 
-
 #   this is where you will have the secret word

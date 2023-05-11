@@ -50,7 +50,7 @@ while turns > 0:
         break  
 
     #   ask again
-    guess = input("guess a letter:") 
+    guess = input("guess a letter: ") 
 
     #   sets your guess to the guesses taken and function for if not
     guesses += guess                    

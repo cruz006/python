@@ -12,7 +12,7 @@ print ("Start guessing...")
 time.sleep(3)
 
 #   this will be the word you need to find
-word = ("genshin")
+word = ("zeugma")
 
 #   makes the things you guess
 guesses = ''

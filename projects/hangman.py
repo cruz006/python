@@ -37,7 +37,7 @@ while turns > 0:
 
         else:
         #   appears if you are wrong
-            print ("_",end=""),     
+            print (" _ ",end=""),     
        
         #   increases fails
             failed += 1    
@@ -45,7 +45,7 @@ while turns > 0:
 
     #   if fail is equal to 0
     if failed == 0:        
-        print ("You won")
+        print (" You won")
    
         break  
 

@@ -9,7 +9,7 @@ print ("Hello, " + name, "it's time to play hangman!")
 time.sleep(3)
 
 print ("Start guessing...")
-time.sleep(3)
+time.sleep(1)
 
 #   this will be the word you need to find
 word = ("zeugma")

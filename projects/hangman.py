@@ -3,7 +3,7 @@ import time
 
 #   greeting
 name = input("What is your name? ")
-print ("Hello, " + name, "Time to play hangman!")
+print ("Hello, " + name, "it's time to play hangman!")
 
 #   wait for 3 second
 time.sleep(3)
@@ -12,7 +12,7 @@ print ("Start guessing...")
 time.sleep(3)
 
 #   this will be the word you need to find
-word = ("secret")
+word = ("genshin")
 
 #   makes the things you guess
 guesses = ''
@@ -50,7 +50,7 @@ while turns > 0:
         break  
 
     #   ask again
-    guess = input("guess a letter: ") 
+    guess = input(", guess a letter: ") 
 
     #   sets your guess to the guesses taken and function for if not
     guesses += guess                    

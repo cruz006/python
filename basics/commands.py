@@ -53,3 +53,7 @@ print("What you typed is " + str(len(var5)) + " characters long.\n")
 #   the str string can be used for many uses
 var6 = 1000
 print("This is an example of turning var6 into a string: \n" + str(var6))
+
+#   the next examples will be capitalization
+var7 = "hello"
+print(var7.capitalize())

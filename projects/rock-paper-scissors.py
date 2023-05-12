@@ -1,6 +1,6 @@
 import random
 
-action =  input("Enter a choice (rock, paper, scissors): \n")
+action = input("Enter a choice (rock, paper, scissors): \n")
 
 choices = ["rock", "paper", "scissors"]
 computer_choice = random.choice(choices)

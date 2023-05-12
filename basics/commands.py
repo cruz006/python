@@ -56,4 +56,14 @@ print("This is an example of turning var6 into a string: \n" + str(var6))
 
 #   the next examples will be capitalization
 var7 = "hello"
-print(var7.capitalize())
+print("\n" + var7.capitalize() + "\n")
+
+#   now it will return the lower case word
+var8 = "HELLO"
+print(var8.lower() + "\n")
+
+#   next is the center command
+str = "Hello, this is in the center"
+new_str = str.center(50, "*")
+print(new_str)
+

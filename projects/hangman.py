@@ -19,7 +19,7 @@ word = ("zeugma")
 guesses = ''
 
 #   number of terms you have
-turns = 10
+turns = 6
 
 #   Create a while loop for the game
 while turns > 0:         

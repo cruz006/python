@@ -2,7 +2,7 @@
 import time
 
 #   greeting
-name = input("What is your name? ")
+name = input("What is your name? \n")
 print ("Hello, " + name, "it's time to play hangman!")
 
 #   wait for 2 second

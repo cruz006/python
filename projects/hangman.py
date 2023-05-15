@@ -8,6 +8,7 @@ print ("Hello, " + name, "it's time to play hangman!")
 #   wait for 2 second
 time.sleep(2)
 
+print("Hint: It's Mrs. Smith's favorite rhetorical device!")
 print ("Start guessing...")
 time.sleep(1)
 

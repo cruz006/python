@@ -1,3 +1,4 @@
+import pprint
 import requests
 
 url = "https://openai80.p.rapidapi.com/images/generations"

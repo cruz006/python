@@ -1,7 +1,5 @@
 import requests
 
-params = {"words": 10, "paragraphs": 1, "format": "json"}
-
 url = "https://api.coincap.io/v2/assets/"
 
 headers={

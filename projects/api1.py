@@ -1,10 +1,9 @@
-import pprint
 import requests
 
 url = "https://openai80.p.rapidapi.com/images/generations"
 
 payload = {
-	"prompt": input("Please enter a prompt \n"),
+	"prompt": input("Please enter a prompt: \n"),
 	"n": 2,
 	"size": "1024x1024"
 }
@@ -16,4 +15,5 @@ headers = {
 }
 
 response = requests.post(url, json=payload, headers=headers)
+
 print(response.json())

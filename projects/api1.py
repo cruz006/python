@@ -1,6 +1,6 @@
 import requests
 
-url = "https://dark-sky.p.rapidapi.com/33.80938,-118.27458"
+url = "https://dark-sky.p.rapidapi.com/+37.774929,-122.419418"
 
 querystring = {"lang":"en","units":"auto"}
 

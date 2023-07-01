@@ -6,7 +6,7 @@ var1 = 0
 while var1 < 10:
     var1 += 1
     print(var1)
-    
+    print("\n")
 
 #   this FOR loop is similar
 var2 = ["A", "B", "C", "D"]
@@ -17,6 +17,7 @@ for  a in var2:
 #   this for loop prints all numbers between 1 and 10. 
 for i in range(1,10):
     print(i)
+    print("\n")
 
 
 #   this is a type command, which is used to check the type of an object in your code. 
@@ -32,6 +33,7 @@ print(type(cnum))
 
 rnum = 3.14
 print(type(rnum))
+print("\n")
 
 
 #   this is the input command, where it takes your input
@@ -65,5 +67,5 @@ print(var8.lower() + "\n")
 #   next is the center command
 str = "Hello, this is in the center"
 new_str = str.center(50, "*")
-print(new_str)
+print(new_str + "\n")
 

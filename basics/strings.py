@@ -9,8 +9,9 @@ double = "Double quote allow you to embed 'single' quotes in your string."
 triple = """Triple quotes allows to embed "double quotes" as well as 'single quotes' in your string. And can also span across multiple lines."""
 print(single + " " + double + " " + triple + "\n")
 
-#   this is how you can find the length of a certain string, i will be using the previous strings
-var1 = len(single)
+#   this is how you can find the length of a certain string, i will be a new string
+var1 = "this message is 33 characters long"
+varLen = len(var1)
 print(var1 + "\n")
 
 #    then this is how you can use the index of a string to find a certain letter
@@ -48,18 +49,20 @@ var3 = str.capitalize('cookie')
 print(var3 + "\n")
 
 #   then this is how you can check if a string is in lower or upper case
-snack = 'cookie'
-food = 'Chips'
-var4 = snack.islower()
+snack = "cookie"
+food = "Chips"
+var4 = snack.isupper()
 var5 = food.islower()
-print(var4 )
-print(var5 + "\n")
+print(var4)
+#   using the str() command, you can make the boolean into a string to be able to 
+#   use a boolean and string in print()
+print(str(var5) + "\n")
 
 #   then this is how you can find a certain word within a string
-str2 = 'I got you a cookie'
-str3 = 'cookie'
-print(str2.find(str3) + "\n")
+str2 = "I got you a cookie"
+str3 = "cookie"
+print(str2.find(str3))
 
-str1 = 'I got you a cookie, do you like cookies?'
-str2 = 'cookie'
-print(str1.count(str2) + "\n")
+str1 = "I got you a cookie, do you like cookies?"
+str2 = "cookie"
+print(str1.count(str2))
